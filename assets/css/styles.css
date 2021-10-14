@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+ }
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #555555
+   
+}
+
+.name {
+    background-color: #151e2f;
+    padding: 10px;
+    border-radius: 10px;
+}
+header h1 {
+font-weight: bold;
+font-size: 36px; 
+margin: 0;
+color: yellow;
+}
+
+header a {
+    text-decoration: none;
+    color: yellow;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 30px;
+    border-bottom: 3px solid yellow;
+}
+
+.hero{
+    display: flex;
+    padding: 50px;
+    background-image: url(../images/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    background-position: 0;
+    z-index: 9999;
+    color: yellow;
+    font-size: 30px;
+}
+
+.hero-img {
+    width: 300px;
+    overflow: auto;
+
+}
+.hero h3 {
+    float: right;
+} 
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-me h2 {
+    font-size: 45px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.projects h2 {
+    font-size: 45px;
+}
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.contact-me h2 {
+    font-size: 45px;
+}
+.run-buddy {
+    border: 2px solid blue;
+    background-image: url(../images/2021-10-12\ 17_23_28-Run\ Buddy.png);
+}
