@@ -104,6 +104,8 @@ header a {
 .flex-row {
     display:flex;
     justify-content: left;
+    flex-wrap: wrap;
+    flex: 1;
 }
 .section-title {
     font-size: 35px;
@@ -224,4 +226,82 @@ header a {
 .contact-info ul li {
     border-bottom: 2px solid;
     padding-bottom: 2px;
+}
+
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 10px;
+      justify-content: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+      flex-direction: row;
+      line-height: 1.5;
+    }
+  
+    header nav ul li a {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .hero{
+      background-size: cover;
+    }
+
+    .hero-img {
+      height: 100px;
+      width: 100px;
+    }
+    .hero h2 {      
+      font-size: 10px;
+      margin-top: 350px;
+      }
+
+    .body-text p{
+        width: 85%;
+      }
+
+    .section-title {
+      width: 100%;
+      text-align: right;
+      font-weight: bold;
+    }
+
+    .border-left1 {      
+      height: 350px;     
+    }
+
+  .border-left2{
+    height: 280px;     
+  }  
+    .container{
+      width: 100%;
+    }
+    .contact-info ul {     
+      width: 100%;
+      justify-content: left;
+      flex-direction: column;      
+  }
+    
+    .contact-info ul li a {
+        font-size: 18px;
+        line-height: 2;  
+        font-weight: bold;
+  }
+
+    .border-left3{
+        height: 180px;
+    }
+
+    .hero-img {
+        top:200px;
+    }
 }
