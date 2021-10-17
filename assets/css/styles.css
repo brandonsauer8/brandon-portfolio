@@ -159,6 +159,7 @@ header a {
     grid-gap: 15px;
     margin-left: 30px;
 }
+
 .text-block {
     position: absolute;
     bottom: 10px;
@@ -228,6 +229,10 @@ header a {
     padding-bottom: 2px;
 }
 
+.contact-info ul li a {
+  text-decoration: none;
+  color: yellow;
+}
 @media screen and (max-width: 980px) {
     header {
       padding-bottom: 10px;
@@ -262,6 +267,7 @@ header a {
       height: 200px;
       width: 200px;
     }
+
     .hero h2 {      
       font-size: 10px;
       margin: 150px;
@@ -289,6 +295,10 @@ header a {
     .container, .text-block{
       width: auto;
     }
+    
+    .work:hover {
+      opacity: 1;
+    }
 
     .contact-info ul {     
       width: auto;
@@ -300,6 +310,7 @@ header a {
         font-size: 18px;
         line-height: 2;  
         font-weight: bold;
+        text-decoration: none;
   }
 
     .border-left3{
@@ -332,7 +343,8 @@ header a {
         margin-right: 40px;
     }
     .text-block {
-        margin-right:20px;
+        right: auto;
+        padding: 2px;
     }
 
     .contact-info ul {     
@@ -345,6 +357,8 @@ header a {
         font-size: 18px;
         line-height: 2;  
         font-weight: bold;
+        text-decoration: none;
+        color: yellow;
   }
 
     .border-left3{
