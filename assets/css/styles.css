@@ -195,12 +195,12 @@ header a {
      grid-row-start: 4;
      grid-row-end: 5;
       }
-    
- .robot-gladiator {
-  grid-column-start: 1;
-  grid-column-end: 3;
-   grid-row-start: 4;
-  grid-row-end: 5;
+
+  .now-were-cooking {
+    grid-column-start: 1;
+    grid-column-end: 3;
+     grid-row-start: 4;
+    grid-row-end: 5;
   }
 
   .border-left3 {
